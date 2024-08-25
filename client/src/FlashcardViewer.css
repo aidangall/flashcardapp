@@ -1,0 +1,79 @@
+/* FlashcardViewer.css */
+.flashcard-viewer {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card {
+  margin: auto;
+  padding: 100px;
+  border: 1px solid;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  width: 25%;
+  cursor: pointer;
+}
+
+.card-flip {
+  animation: flip 0.6s ease-in-out;
+}
+
+
+.button-container {
+  margin-top: 10px;
+}
+
+.button {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.correct-button {
+  background-color: #28a745; /* Green color, you can change it */
+  color: white;
+  margin-right: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.incorrect-button {
+  background-color: #dc3545; /* Red color, you can change it */
+  color: white;
+  margin-right: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.shuffle-button {
+  background-color: #efbd00; /* Red color, you can change it */
+  color: white;
+  margin-right: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}

@@ -1,0 +1,52 @@
+/* style.css */
+.flashcard-result {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+
+}
+
+.label {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stats {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 10px;
+    font-size: 16px;
+    width: 20%;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; /* Blue color, you can change it */
+    color: white;
+    border: none;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover, you can change it */
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
